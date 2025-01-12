@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 def users(request):
-    return render(request, 'user.html')
+    return render(request, 'users.html')
 
 
 def profile(request, username):

@@ -12,7 +12,7 @@ def users(request):
 
 def hello(request):
 
-    name = "정은"
+    name = "JeongEun"
     tags = ['python', 'django', 'funny']
     books = ['헨젤과 그레텔', '피노키오', '피터팬', '백설공주', '어린왕자']
     context = {
@@ -36,4 +36,4 @@ def profile(request, username):
     context = {
         'username' : username,
     }
-    return render(request, 'profile.html')
+    return render(request, 'profile.html', context)

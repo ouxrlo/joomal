@@ -23,4 +23,5 @@ urlpatterns = [
     path('index/', views.index),
     path('users/', views.users),
     path('hello/', views.hello),
+    path('data_throw/', views.data_throw),
 ]

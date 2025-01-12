@@ -2,8 +2,13 @@
 
 {% block content %}
 
-    <h1> Hello, Django! </h1>
-    <div> good morning </div>
+    <h1> INDEX PAGE </h1>
+
+    <ul>
+        <li><a href="{% url 'hello' %}">Hello</a></li>
+        <li><a href="{% url 'throw' %}">Throw</a></li>
+    </ul>
+    
     
 
 {% endblock content %}
